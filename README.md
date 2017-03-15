@@ -48,4 +48,4 @@ sm.Exit()
 
 ```
 
-See [cmd_tests.go](cmd_tests.go) for more examples.
+See [cmd_test.go](cmd_test.go) for more examples.
