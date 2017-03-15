@@ -1,4 +1,4 @@
-# go-async
+# go-async-cmd
 
 [![Documentation](https://img.shields.io/badge/docs-godoc-blue.svg)](https://godoc.org/github.com/ryankurte/go-async-cmd)
 [![GitHub tag](https://img.shields.io/github/tag/ryankurte/go-async-cmd.svg)](https://github.com/ryankurte/go-async-cmd)
