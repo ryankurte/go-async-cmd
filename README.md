@@ -22,6 +22,10 @@ c := gocmd.Command("tee")
 c.InputChan = make(chan string, 1024)
 c.OutputChan = make(chan string, 1024)
 
+// Start the command
+// Binds channels if provided
+c.Start()
+
 testString := "Test String\n"
 
 c.InputChan <- testString
@@ -36,7 +40,6 @@ if !strings.Contains(line, testString) {
     t.Errorf("Unexpected line out: %s", line)
 }
 
-...
 
 // Exit the command. This calls wait, then sends an interrupt and kill at predefined intervals
 // to allow exiting from long-running processes
