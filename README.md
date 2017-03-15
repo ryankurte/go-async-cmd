@@ -47,3 +47,5 @@ if !strings.Contains(line, testString) {
 sm.Exit()
 
 ```
+
+See [cmd_tests.go](cmd_tests.go) for more examples.

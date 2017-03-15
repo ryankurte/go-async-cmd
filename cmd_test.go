@@ -1,5 +1,5 @@
 /**
- * go-cmd exec/command wrapper
+ * go-cmd exec/command wrapper tests
  *
  * https://github.com/ryankurte/go-cmd
  * Copyright 2017 Ryan Kurte
