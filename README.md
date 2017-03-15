@@ -23,7 +23,7 @@ c.InputChan = make(chan string, 1024)
 c.OutputChan = make(chan string, 1024)
 
 // Start the command
-// Binds channels if provided
+// Binds channels if provided previously
 c.Start()
 
 testString := "Test String\n"
@@ -40,10 +40,9 @@ if !strings.Contains(line, testString) {
     t.Errorf("Unexpected line out: %s", line)
 }
 
-
 // Exit the command. This calls wait, then sends an interrupt and kill at predefined intervals
 // to allow exiting from long-running processes
-// You can also user wait or any of the other standard methods
+// You can also use wait or any of the other standard methods
 sm.Exit()
 
 ```
