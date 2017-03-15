@@ -11,6 +11,10 @@ A wrapper around [exec/cmd](https://golang.org/pkg/os/exec/#Command) that provid
 
 ```go
 
+import(
+    "gopkg.in/ryankurte/go-async-cmd.v1"
+)
+
 // Create the command, this matches the syntax of exec/Cmd
 c := gocmd.Command("tee")
 
