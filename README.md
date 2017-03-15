@@ -6,6 +6,7 @@
 
 A wrapper around [exec/cmd](https://golang.org/pkg/os/exec/#Command) that provides asynchronous channels to read and write to a running commmand.
 
+Motivated by a stupid problem I had, and inspired by [jesselucas/executil](https://github.com/jesselucas/executil).
 
 ## Usage
 
